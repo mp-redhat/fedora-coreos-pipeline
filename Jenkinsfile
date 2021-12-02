@@ -1,6 +1,6 @@
 import org.yaml.snakeyaml.Yaml;
 
-def pipeutils, streams, official, official_jenkins, developer_prefix
+def pod, pipeutils, streams, official, official_jenkins, developer_prefix
 def src_config_url, src_config_ref, s3_bucket, fcos_config_commit
 node {
     checkout scm
